@@ -49,7 +49,7 @@
       
       items: [{
         xtype: 'fieldset',
-        title: 'Store Locator',
+        title: 'GTO Customised Store Locator',
         items: [new CustomSelectView({
           id: 'countySelect',
           name: 'county',
