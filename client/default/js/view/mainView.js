@@ -9,7 +9,7 @@
       layout: 'card',
       xtype: 'panel',
 
-      
+      /*
       xtype: 'tabpanel',
       tabBar: {
         cls: 'tabBar',
@@ -18,7 +18,7 @@
           pack: 'center'
         }
       },
-     
+     */
       
       dockedItems: [{
         xtype: 'toolbar',
