@@ -22,12 +22,6 @@
       loadingMask.show();
       console.log('launching app');
       
-      if (Ext.is.Android) {
-        Ext.Anim.override({
-          disableAnimations: true
-        });
-      }
-      
       this.views.mainView = new this.views.MainView({
         listeners: {
           afterrender: function () {
